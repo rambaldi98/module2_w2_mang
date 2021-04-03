@@ -17,13 +17,13 @@ public class SwapMang {
         }
         sapxep(arr);
         for (int x:arr ) {
-            System.out.println(x);
+            System.out.print(x + "\t");
         }
 
     }
 
     public static void sapxep(int [] arr) {
-        for (int i = 0; i <= arr.length/2; i++) {
+        for (int i = 0; i < arr.length/2; i++) {
             int temp = arr[i];
             arr[i] = arr[arr.length -1 - i];
             arr[arr.length -1 - i] = temp;
