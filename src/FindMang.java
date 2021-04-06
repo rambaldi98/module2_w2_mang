@@ -1,4 +1,5 @@
 public class FindMang {
+
     public static void main(String[] args) {
         String[] str = {"hoa", "qua", "noi", "gian"};
         System.out.println(findString(str,"hoa"));
@@ -15,4 +16,5 @@ public class FindMang {
 
         return -1;
     }
+
 }

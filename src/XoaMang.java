@@ -12,9 +12,12 @@ public class XoaMang {
         return newarr;
     }
 
+
     public static void main(String[] args) {
 //        System.out.println(xoa(( new int[]{1,2,4 ,3,4,5}),4));
-    for(int x : xoa( new int[]{1,2,4,3,4,5},4)) {
+
+
+        for(int x : xoa( new int[]{1,2,4,3,4,5},4)) {
 
         System.out.println(x);
     }
